@@ -6,6 +6,8 @@ Welcome to my YouTube channel, where I teach people web development! In this cha
 
 My name is Basit Ali and I'm a web developer with 5 years of experience. I'm passionate about teaching and helping others learn to code.
 
+![Profile Picture](assets/profile-picture.jpeg)
+
 ## Projects
 
 In this repository, you'll find the source code for the projects I create on my YouTube channel. Each project has its own directory, which contains the source code and any additional files needed to run the project.
