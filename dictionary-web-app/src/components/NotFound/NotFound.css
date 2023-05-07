@@ -1,0 +1,20 @@
+.not-found {
+	text-align: center;
+}
+
+.not-found__title {
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+}
+
+.not-found__description {
+	font-size: 1.8rem;
+}
+
+.dark .not-found__title {
+	color: var(--light-color-3);
+}
+.dark .not-found__description {
+	color: var(--light-color);
+}

@@ -1,0 +1,35 @@
+/* COLORS 
+
+
+  - main-colors 
+  #A445ED
+  #FF5252
+
+ - grey-colors 
+  #050505
+  #1F1F1F
+  #2D2D2D
+  #3A3A3A
+
+  - grey-light-colors 
+  #757575
+  #E9E9E9
+  #F4F4F4
+  #FFFFFF
+
+
+
+
+  TYPOGRAPY
+
+  font-family:sans-serif;
+  font-family:serif;
+  font-family:mono;
+*/
+
+
+
+
+.App.dark{
+  background-color: var(--dark-color);
+}

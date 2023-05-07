@@ -1,0 +1,14 @@
+.topbar {
+	margin-bottom: 52px;
+}
+
+.topbar__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.topbar__actions {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}

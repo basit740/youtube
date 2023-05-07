@@ -1,0 +1,13 @@
+.seaching {
+}
+
+.seaching h1 {
+	text-align: center;
+
+	font-size: 5rem;
+	color: var(--dark-color);
+}
+
+.dark .seaching h1 {
+	color: var(--light-color-3);
+}

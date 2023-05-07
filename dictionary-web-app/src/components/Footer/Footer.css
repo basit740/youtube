@@ -1,0 +1,26 @@
+.footer {
+	padding-top: 20px;
+}
+.footer-content {
+	border-top: 1px solid var(--light-color-1);
+}
+.footer__source {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+.footer__source-title {
+	color: var(--light-color);
+}
+.footer__source-link:link {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	color: var(--dark-color-3);
+}
+
+/* DARK MODE */
+
+.dark .footer__source-link:link {
+	color: var(--light-color-3);
+}

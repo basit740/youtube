@@ -1,0 +1,22 @@
+.theme-handler {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding-left: 2rem;
+	border-left: 1px solid #000;
+}
+.theme-handler__checkbox {
+	display: none;
+}
+.theme-handler__label {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	cursor: pointer;
+}
+
+/* /// dark theme */
+
+.dark .theme-handler {
+	border-left: 1px solid #fff;
+}
