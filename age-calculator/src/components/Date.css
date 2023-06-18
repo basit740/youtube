@@ -1,0 +1,116 @@
+.date {
+	width: 100%;
+}
+.date__form {
+	display: flex;
+	flex-direction: column;
+	gap: 4.7rem;
+	width: 100%;
+	font-family: inherit;
+}
+
+.date__controlls {
+	display: flex;
+	align-items: center;
+	width: 75%;
+	justify-content: flex-start;
+	gap: 2rem;
+}
+
+.date__control {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	position: relative;
+}
+
+.date__control-label {
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.date__control input {
+	padding: 1.2rem 2.4rem;
+	border-radius: 8px;
+	width: 100%; /* Ensures input elements occupy the available width */
+	border: 1px solid #dcdcdc;
+	font-size: 3.2rem;
+	color: #151515;
+	font-family: inherit;
+	font-weight: 700;
+}
+.date__control input:focus {
+	outline: 1px solid var(--primary-color);
+}
+
+.error-message {
+	position: absolute;
+	color: red;
+	top: 105%;
+	font-size: 1.4rem;
+	font-style: italic;
+	font-weight: 400;
+	opacity: 0;
+	transition: 0.3s;
+}
+.date__control .date__input.error {
+	outline: 1px solid #f03e3e;
+
+	/* border: 1px solid red; */
+}
+.date__input.error + .error-message {
+	opacity: 1;
+}
+.date__actions {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.date__actions hr {
+	width: 100%;
+	height: 0.5px;
+	font-weight: 400;
+}
+.date__actions button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	width: 9.6rem;
+	height: 9.6rem;
+	transition: all 0.8s;
+}
+.date__actions button svg {
+	width: 100%;
+	height: 100%;
+	transition: all 0.8s;
+}
+
+.date__actions button:hover svg rect {
+	fill: black;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 769px) {
+	.date__controlls {
+		width: 100%;
+	}
+	.date__actions {
+		margin: 5rem 0 7rem;
+	}
+	.date__actions button {
+		position: absolute;
+		z-index: 1000;
+		left: 50%;
+		transform: translate(-50%);
+	}
+}
+
+/* .DARK MODE LATER ON */
+
+.dark .date__control input {
+	background-color: #444;
+	border: none;
+	color: var(--primary-color);
+}

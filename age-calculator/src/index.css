@@ -1,0 +1,74 @@
+:root {
+	--primary-color: #854dff;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #bbb;
+	font-family: 'Poppins' !important;
+	position: relative;
+}
+
+/* APP STYLEs */
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
+}
+.app__content {
+	width: 80rem;
+	max-width: 80rem;
+	background-color: #fff;
+	padding: 5.6rem;
+	background: #ffffff;
+	border-radius: 2.4rem 2.4rem 20rem 2.4rem;
+	transition: all 0.3s;
+	margin: 0 25px;
+	/* height: 651px; ADD THIS BUT, HAVE TO remove this later on/ */
+}
+
+@media (max-width: 769px) {
+	html {
+		font-size: 50%;
+	}
+	.app__content {
+		width: 100%;
+
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	html {
+		font-size: 30%;
+	}
+	body {
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 400px) {
+	html {
+		font-size: 23%;
+	}
+}
+
+body.dark {
+	background-color: #222;
+	color: #854dff;
+}
+
+.dark .app__content {
+	background-color: #323232;
+}

@@ -1,0 +1,28 @@
+.output {
+	/* padding-top: 10px; */
+
+	font-size: 10.4rem;
+	font-weight: 800;
+	font-style: italic;
+	line-height: 1.2;
+}
+
+.output__item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.output__number {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	color: var(--primary-color);
+
+	gap: 15px;
+}
+.output__text {
+}
+
+.dark .output__number {
+	color: #dacaff;
+}
