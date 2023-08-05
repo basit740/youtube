@@ -18,6 +18,8 @@ Here's a list of the projects currently available in this repository:
 
 - [Age Calculator Web App](https://age-caculator-alpha.vercel.app/): [A web app in react for calculating age]
 
+- [Social Proofs Section](https://age-caculator-alpha.vercel.app/): [A simple HTML page for Social Proofs Section]
+
 ## Support Me
 
 If you find my content helpful, please consider supporting me by [donating](https://patreon.com/CodingWithBasit) or [subscribing to my channel](https://www.youtube.com/channel/UCFGZiRY_X5hJXZNpg_6PcGQ).

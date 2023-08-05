@@ -1,0 +1,365 @@
+:root {
+	--primary: #00b894;
+	--secondary: #00b893b6;
+	--light: #e8f8f5;
+	--accent: #55efc4;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #3498db;
+	--secondary: #2980b9;
+	--light: #e6f2ff;
+	--accent: #48a4f3;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #e74c3c;
+	--secondary: #c0392b;
+	--light: #ffe5e0;
+	--accent: #ff635e;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #e67e22;
+	--secondary: #d35400;
+	--light: #fff2e6;
+	--accent: #ffa64d;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #e91e63;
+	--secondary: #d81b60;
+	--light: #ffe5ec;
+	--accent: #f06292;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #f1c40f;
+	--secondary: #f39c12;
+	--light: #fff9e6;
+	--accent: #ffd700;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #00bcd4;
+	--secondary: #0097a7;
+	--light: #e0f7fa;
+	--accent: #4dd0e1;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #95a5a6;
+	--secondary: #7f8c8d;
+	--light: #f5f5f5;
+	--accent: #bdc3c7;
+	--text-white: #fff;
+}
+
+:root {
+	--primary: #9b59b6;
+	--secondary: #8e44ad;
+	--light: #f2e5ff;
+	--accent: #b870e3;
+	--text-white: #fff;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'League Spartan', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	/* background-color: #222; */
+
+	padding-top: 100px;
+}
+
+.section-social-proofs {
+}
+
+.social-proofs__content {
+	max-width: 115.5rem;
+	margin: 0 auto;
+	padding: 0 3rem;
+	/* overflow: hidden; */
+}
+
+.social-proofs__header {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+	gap: 2rem;
+	width: 100%;
+	margin-bottom: 7rem;
+}
+
+.social-proofs__textbox {
+	width: 50%;
+}
+
+.social-proofs__title {
+	color: var(--primary);
+	font-size: 5.6rem;
+	font-weight: 700;
+	line-height: 48px; /* 85.714% */
+	letter-spacing: -2px;
+	margin-bottom: 1.6rem;
+}
+
+.social-proofs__description {
+	color: var(--secondary);
+	font-size: 1.9rem;
+	font-weight: 500;
+	line-height: 25px; /* 131.579% */
+	letter-spacing: -0.633px;
+}
+
+.social-proofs__bars {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	gap: 2rem;
+}
+
+.social-proofs__bar {
+	border-radius: 8px;
+	background: var(--light);
+	padding: 2rem 3.2rem;
+	max-width: 44.5rem;
+	width: 100%;
+	color: var(--primary);
+	font-size: 1.7rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social-proofs__bar:nth-child(1) {
+	animation: moveRight 0.5s ease-in-out;
+}
+
+.social-proofs__bar:nth-child(2) {
+	align-self: center;
+	animation: moveRight 1s ease-in-out;
+}
+
+.social-proofs__bar:nth-child(3) {
+	align-self: flex-end;
+	animation: moveRight 1.5s ease-in-out;
+}
+
+.bar__stars {
+}
+
+.bar__text {
+}
+
+.social-proofs__reviews {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social-proofs__review {
+	padding: 4rem 3.2rem;
+	border-radius: 8px;
+	background: var(--primary);
+	height: 25rem;
+}
+
+.social-proofs__review:nth-child(1) {
+	animation: moveDown 0.5s ease-in-out;
+}
+
+.social-proofs__review:nth-child(2) {
+	transform: translateY(25px);
+	animation: moveDown10px 1s ease-in-out;
+}
+
+.social-proofs__review:nth-child(3) {
+	transform: translateY(35px);
+	animation: moveDown15px 1.5s ease-in-out;
+}
+
+.review__userbox {
+	margin-bottom: 3.2rem;
+	display: flex;
+	align-items: center;
+	gap: 2.3rem;
+}
+
+.review__avatar {
+	border-radius: 40px;
+	object-fit: cover;
+	width: 4rem;
+	height: 4rem;
+}
+
+.review__user-namebox {
+}
+
+.review__username {
+	color: var(--text-white);
+	font-size: 1.7rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.review__userprofession {
+	color: var(--accent);
+	font-size: 1.7rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.user__review {
+	color: var(--text-white);
+	font-size: 1.7rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 22px; /* 129.412% */
+	letter-spacing: -0.304px;
+}
+
+.theme-box {
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.theme-box > button {
+	margin-right: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: transparent !important;
+	border: none;
+	border: 1px solid grey;
+	cursor: pointer;
+}
+#theme-selector {
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: 0.5px solid grey;
+}
+
+@keyframes moveRight {
+	0% {
+		transform: translateX(-15px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes moveDown {
+	0% {
+		transform: translateY(-15px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes moveDown10px {
+	0% {
+		transform: translateY(0px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(25px);
+		opacity: 1;
+	}
+}
+
+@keyframes moveDown15px {
+	0% {
+		transform: translateY(0px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(35px);
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 45%;
+	}
+
+	.social-proofs__header {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+
+	.social-proofs__header > div {
+		width: 100%;
+	}
+
+	.social-proofs__bar {
+		flex-direction: column;
+		gap: 1rem;
+		max-width: 100%;
+	}
+
+	.social-proofs__reviews {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.social-proofs__reviews .social-proofs__review:first-child {
+		transform: translate(0px);
+		animation: moveDown 0.5s ease-in-out;
+	}
+	.social-proofs__reviews .social-proofs__review:nth-child(2) {
+		transform: translate(0px);
+		animation: moveDown 1s ease-in-out;
+	}
+
+	.social-proofs__reviews .social-proofs__review:last-child {
+		transform: translate(0px);
+		animation: moveDown 1.5s ease-in-out;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 35%;
+	}
+
+	.social-proofs__header {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+}
